@@ -1,0 +1,11 @@
+.Profile{
+    background-color: orange;
+    grid-area: p;
+}
+.Profile img{
+    height: 150px;
+    width: 1500px;
+}
+.item{
+    color: green;
+}
