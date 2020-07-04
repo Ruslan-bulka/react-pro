@@ -3,18 +3,19 @@ import Post from "./Post/Post";
 import classes from "./MyPost.module.css";
 
 
-   const Mypost = () => {
+   const Mypost = (props) => {
        return (
        <div>
-           Myposts
+           {props.Name}, {props.Age}
            <div>
                <textarea></textarea>
                <button>Add Post</button>
            </div>
            <div className={classes.post}>
-             <Post />
-             <Post />
-             <Post />
+             <Post message='How are You?'  number_like='30' />
+             <Post message='it s my first post' number_like='20' />
+
+
            </div>
        </div>);
    }

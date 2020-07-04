@@ -2,6 +2,7 @@ import React  from 'react';
 import classes from './Profile.module.css';
 import Mypost from "./Myposts/MyPost";
 
+
 const Profile = () => {
     return (
         <div className={classes.Profile}>
@@ -11,7 +12,7 @@ const Profile = () => {
             <div>
                 ava + описание
             </div>
-             <Mypost />
+             <Mypost Name='Ruslan' Age='15'/>
         </div>);
 
         }
