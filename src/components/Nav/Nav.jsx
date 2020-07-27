@@ -1,13 +1,14 @@
 import React  from 'react';
 import classes from './Nav.module.css';
+
 const Nav = () => {
     return(
         <nav className={classes.nav}>
             <div className={classes.item}>
-                <a className={classes.profile}>Profile</a>
+                <a href="/Profile" >Profile</a>
             </div>
-             <div className={classes.item}>
-                <a>Message</a>
+            <div className={classes.item}>
+                <a href="/Dialogs">Message</a>
             </div>
             <div className={classes.item}>
                 <a>News</a>
@@ -23,3 +24,6 @@ const Nav = () => {
 }
 
 export default Nav;
+
+
+

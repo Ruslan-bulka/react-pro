@@ -2,10 +2,11 @@
     background-color: purple;
     grid-area: n;
 }
-.item{
+.item {
     color: white;
+
 }
-.profile{
+.item:hover{
     color: gold;
     font-size: 20px;
 }
