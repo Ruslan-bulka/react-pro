@@ -1,6 +1,6 @@
-.Profile{
+.content{
     background-color: orange;
-    grid-area: p;
+    grid-area: c;
 }
 
 .Profile img{

@@ -5,6 +5,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
 
 
 const App =  () =>{
@@ -12,7 +13,11 @@ const App =  () =>{
         <div className='app-wrap'>
             <Header/>
             <Nav/>
-            <Profile/>
+            <div className='app-wrap-content'>
+            <Dialogs />
+            </div>
+            {/*<Profile/>*/}
+
         </div>);
 
 

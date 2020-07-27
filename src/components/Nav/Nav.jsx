@@ -4,7 +4,7 @@ const Nav = () => {
     return(
         <nav className={classes.nav}>
             <div className={classes.item}>
-                <a>Profile</a>
+                <a className={classes.profile}>Profile</a>
             </div>
              <div className={classes.item}>
                 <a>Message</a>
